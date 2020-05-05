@@ -2,8 +2,9 @@
 eks -k8-terrform-ansible deployment
 
 
-main.tf contain deployment logic for aws infa with terrform calling eks eksmaster with 2worker nodes for pods.
+main.tf contain deployment logic for aws infa provision with terrform and deploying kubenetes yaml file with ansible on 2 worker nodes for pods. ( K8 master taken care by aws,etcd ha maintain by aws.)
 network - HA taken care by aws.
+
 set autoscaling 
 
 AWS-EKS feature used-
