@@ -22,7 +22,7 @@ kubectl config set-context default-system \
   --cluster=chosen-cluster \
   --user=chosen-user
 
-kubectl config use-context default-system
+kubectl config use-context default-system 
 
 Kubernetes Provider for Standalone Cluster:
 
